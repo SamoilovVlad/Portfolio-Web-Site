@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vladyslav Samoilov Resume</title>
+    <link rel="stylesheet" href="Scripts/splide-4.1.3/dist/css/splide.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="./favicon_io/site.webmanifest">
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <a href="#" class="">
+                <h1 style="font-size: 30px; color:white">Vlad Samoilov</h1>
+                <!-- <img class="img-fuild" src="./images/logo.png"> -->
+            </a>
+            <ul class="menu">
+                <li class="menu-item">
+                    <a href="#main" id="main" class="menu-link active-link" onclick="scrollToSection(event)">Home</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#about" id="about" class="menu-link"  onclick="scrollToSection(event)">About</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#resume" id="resume" class="menu-link"  onclick="scrollToSection(event)">Resume & Portfolio</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#services" id="services" class="menu-link"  onclick="scrollToSection(event)">Services</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#contact" id="contact" class="menu-link"  onclick="scrollToSection(event)">Contact</a>
+                </li>
+                <ion-icon name="close-outline" class="close-icon"></ion-icon>
+            </ul> 
+            <ion-icon name="menu-outline" class="toggle-icon"></ion-icon>
+        </div>
+    </header>
+    <main>
+        <div class="overlay" onclick="ClosePopUp(event.target)"></div>
+        <div class="main section" id="main">
+            <div class="main-container container grid">
+                <div class="main-content">
+                    <h1>Hi there,</h1>
+                    <h4>I am <span class="typed" data-typed-items=".NET Developer,FullStack Developer,Freelancer"></span></h4>
+                    <p>
+                        Passionate about crafting innovative solutions and bringing ideas to life as a .NET FullStack Developer.
+                    </p>
+                    <div class="main-social">
+                        <a href="https://www.facebook.com/profile.php?id=100086915460998" target="_blank"><i class='bx bxl-facebook' style="font-size: 26px;"></i></a>
+                        <a href="https://github.com/SamoilovVlad" target="_blank"><i class='bx bxl-github' style="font-size: 26px;"></i></a>
+                        <a href="https://www.linkedin.com/in/vladyslav-samoilov-1211bb294/" target="_blank"><i class='bx bxl-linkedin' style="font-size: 24px;"></i></a>
+                    </div>
+                    <div class="main-btns">
+                        <a href="#about" class="btn another" id="about" onclick="scrollToSection(event)">
+                            <span id="about" class="btn-title" style="margin-left: 5px;">Read more</span>
+                            <ion-icon id="about" name="caret-forward-circle-outline" class="icon" style="margin-left: 5px; margin-right: 5px; margin-top: 3px; width: 16px; height: 16px;"></ion-icon>
+                        </a>
+                        <a href="#hireMe" class="btn" id="services" style="margin-left: 30px;"  onclick="scrollToSection(event)">
+                            <span id="services" class="btn-title" style="margin-left: 5px;">Hire Me</span>
+                            <ion-icon id="services" name="pricetags-outline" class="icon" style="margin-left: 7px; margin-right: 5px; margin-top: 3px; width: 16px; height: 16px;"></ion-icon>
+                        </a>
+                    </div>
+                </div>
+                <div class="main-img">
+                    <img src="./images/img1.png" class="img-fuild img-main">
+                </div>
+            </div>
+        </div>
+        <div class="about section" id="about">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-container container grid">
+                <div class="about-img">
+                    <img class="img-fuild" style="width: 80%; text-align: left;" src="./images/pngwing.com (1).png">
+                </div>
+                <div class="about-content">
+                    <h1>I specialize in the art of software craftsmanship.</h1>
+                    <p>Hello, I'solutions that drive technological advancement. I am eager to bring my skills and dedication to your team, contributing to the success of projects and helping shape the future of cutting-edge software development.</p>
+                    <div class="about-info">
+                        <div class="about-div">
+                            <span class="span-title">My projects</span>
+                            <br>
+                            <span class="text"><strong style="font-weight: 900;">MyLovelyLib</strong> - offline library with responsive view and modern design, with a modern approach to the backend</span>
+                            <br>
+                            <span class="text"><strong style="font-weight: 900;">Novus</strong> - online web Internet Product Store with the posibility to delivery and save your products in cart, or make your own account to have nice benefits</span>
+                        </div>
+                        <div class="about-div">
+                            <span class="span-title">Expirienced in</span>
+                            <br>
+                            <span class="text">Database architecture</span>
+                            <br>
+                            <span class="text">C# programming language</span>
+                            <br>
+                            <span class="text">ASP.NET framework</span>
+                            <br>
+                            <span class="text">Web development with MVC and Web API</span>
+                            <br>
+                            <span class="text">Entity Framework for data access</span>
+                            <br>
+                            <span class="text">Front-end technologies: HTML, CSS, JavaScript</span>
+                            <br>
+                            <span class="text">Modern and responsive design</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="resume section container" id="resume">
+            <h2 class="section-title">Resume & Portfolio</h2>
+            <div class="resume-container container grid">
+                <div class="resume-content">
+                    <h1 class="title">Vladyslav Samoilov</h1>
+                    <span class="text">I am an ambitious ASP.NET developer who passionately creates and evolves effective web solutions. While my professional experience may be limited, I work with full commitment on personal projects, gaining practical knowledge and skills.</span>
+                    <br>
+                    <span class="text">During my independent work on projects involving ASP.NET MVC, C#, and SQL, I have developed a deep understanding of these technologies. I focus on creating clear and scalable code.</span>
+                    <br>
+                    <span class="text">In addition to my technical skills, I am highly dedicated to staying abreast of the latest industry trends and advancements. I actively seek opportunities to expand my knowledge, attending relevant webinars, participating in online communities, and constantly exploring emerging technologies that can enhance my development capabilities.</span>
+                </div>
+                <img class="resume-image" src="./images/resume.png">
+            </div>
+            <div class="slider-container">
+                <div class="card">
+                    <ion-icon name="close-outline" onclick="ClosePopUp()"></ion-icon>
+                    <img src="./images/C-img.png">
+                    <h1>C#</h1>
+                    <p>C# stands out as one of today's most popular and versatile programming languages. Widely used in web development, desktop applications, and game development.</p>
+                </div>
+                <h1 class="title">Hard Skills</h1>
+                <section class="splide" aria-labelledby="carousel-heading">
+                    <div class="splide__track">
+                          <ul class="splide__list">
+                              <li class="splide__slide" onclick="PopUp(event.target)">
+                                <div class="slide-container-first">
+                                    <div class="slide-container">
+                                        <img src="./images/C-img.png">
+                                        <div class="slide-content">
+                                            <h1 class="slide-title">C#</h1>
+                                            <span class="text" style="display: none;">C# stands out as one of today's most popular and versatile programming languages. Widely used in web development, desktop applications, and game development.</span>
+                                        </div>
+                                    </div>
+                                </div>
+                              </li>
+                              <li class="splide__slide" onclick="PopUp(event.target)">
+                                <div class="slide-container-first">
+                                    <div class="slide-container">
+                                        <img src="./images/js-img.png">
+                                        <div class="slide-content">
+                                            <h1 class="slide-title">JavaScript</h1>
+                                            <span class="text" style="display: none;">JavaScript is a versatile programming language extensively used for web development, enabling the creation of interactive and dynamic user interfaces.</span>
+                                        </div>
+                                    </div>
+                                </div>
+                              </li>
+                              <li class="splide__slide" onclick="PopUp(event.target)">
+                                <div class="slide-container-first">
+                                    <div class="slide-container">
+                                        <img src="./images/React.png">
+                                        <div class="slide-content">
+                                            <h1 class="slide-title">React</h1>
+                                            <span class="text" style="display: none;">React is a powerful JavaScript library widely used for building user interfaces. It enables the development of interactive and efficient front-end applications.</span>
+                                        </div>
+                                    </div>
+                                </div>
+                              </li>
+                              <li class="splide__slide" onclick="PopUp(event.target)">
+                                <div class="slide-container-first">
+                                    <div class="slide-container">
+                                        <img src="./images/NetCore.png">
+                                        <div class="slide-content">
+                                            <h1 class="slide-title">.NET Core</h1>
+                                            <span class="text" style="display: none;">.NET is a comprehensive and versatile framework developed by Microsoft. It is widely utilized for building scalable and robust applications, spanning web, desktop, and mobile platforms.</span>
+                                        </div>
+                                    </div>
+                                </div>
+                              </li>
+                              <li class="splide__slide" onclick="PopUp(event.target)">
+                                <div class="slide-container-first">
+                                    <div class="slide-container">
+                                        <img src="./images/mySql-img.png">
+                                        <div class="slide-content">
+                                            <h1 class="slide-title">MySQL</h1>
+                                            <span class="text" style="display: none;">MySQL is an open-source relational database management system. It is widely used for efficiently storing and retrieving data in various web applications.</span>
+                                        </div>
+                                    </div>
+                                </div>
+                              </li>
+                              <li class="splide__slide" onclick="PopUp(event.target)">
+                                <div class="slide-container-first">
+                                    <div class="slide-container">
+                                        <img src="./images/html.png">
+                                        <div class="slide-content">
+                                           <h1 class="slide-title">HTML</h1>
+                                           <span class="text" style="display: none;">HTML is the backbone of the web. It structures content, using tags like headings, paragraphs, and links. Essential for every web developer.</span>
+                                        </div>
+                                    </div>
+                                </div>
+                              </li>
+                              <li class="splide__slide" onclick="PopUp(event.target)">
+                                <div class="slide-container-first">
+                                    <div class="slide-container">
+                                        <img src="./images/css.png">
+                                        <div class="slide-content">
+                                           <h1 class="slide-title">CSS</h1>
+                                           <span class="text" style="display: none;">CSS, is a crucial language in web development. It styles HTML elements, ensuring visually appealing and consistent designs across various devices.</span>
+                                        </div>
+                                    </div>
+                                </div>
+                              </li>
+                              <li class="splide__slide" onclick="PopUp(event.target)">
+                                <div class="slide-container-first">
+                                    <div class="slide-container">
+                                        <img src="./images/postgre.png">
+                                        <div class="slide-content">
+                                           <h1 class="slide-title">PostgreSql</h1>
+                                           <span class="text" style="display: none;">PostgreSQL is a robust open-source relational database system, known for its reliability and advanced features, making it a top choice for various applications.</span>
+                                        </div>
+                                    </div>
+                                </div>
+                              </li>
+                          </ul>
+                    </div>
+                  </section>
+            </div>
+            <div class="soft-skills-container container">
+                <h1 class="title">Soft Skills</h1>
+                <div class="grid">
+                    <div class="soft-skills">
+                        <div class="soft-skill">
+                            <div class="soft-skill-name">
+                                <span>Comunication</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                        <div class="soft-skill">
+                            <div class="soft-skill-name">
+                                <span>Problem-Solving</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <div class="soft-skill">
+                            <div class="soft-skill-name">
+                                <span>Critical Thinking</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 80%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="soft-skills">
+                        <div class="soft-skill" id="first">
+                            <div class="soft-skill-name">
+                                <span>Time Management</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <div class="soft-skill">    
+                            <div class="soft-skill-name">
+                                <span>Adaptability</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 95%;"></div>
+                            </div>
+                        </div>
+                        <div class="soft-skill">
+                            <div class="soft-skill-name">
+                                <span>Self-Motivation</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 80%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="services container section" id="services">
+            <h1 class="section-title">Services</h1>
+            <div class="my-services">
+                <div class="">
+                    <h1 class="title">How it works?</h1>
+                    <div class="instruction">
+                        <p>1. First, you should select the option you want to receive from me.</p>
+                        <p>2. Then, enter the number of hours I should work on your project</p>
+                        <p>3. If you needs in more than one option, you can add its.</p>
+                        <p>4. At the end check the total price, if everything is satisfactory, click submit button, and send me email.</p>
+                        <p>5. After that, the system will generate an email, please correct it and send it to me!</p>
+                        <p>6. I will answer as soon as possible!</p>
+                    </div>
+                </div>
+                <div class="my-services-content">
+                    <h1 class="title">My Services</h1>
+                    <div class="services-container">
+                        <div class="services-content">
+                            <div class="service">
+                                <div class="service-inner" price="9.99" id="service1">
+                                    <div class="plus-minus" id="1" onclick="Minus(this.id)"><i class='bx bx-minus' style="font-weight:bold" id="1"></i></div>
+                                    Web App Development
+                                    <div class="plus-minus" id="1" onclick="Plus(this.id)"><i class='bx bx-plus' style="font-weight:bold" id="1"></i></div>
+                                </div>
+                                <div class="service-counter">
+                                    <div class="service-counter-content">
+                                        <div class="service-counter-inner">
+                                            <span style="visibility: hidden; margin-right:2px;" id="span1">0</span>
+                                            <span style="margin-top: -1px;">h</span>
+                                        </div>
+                                        <input type="text" class="service-counter-input" maxlength="3" oninput="validateInput(this)" value="0" id="input1" onblur="OnInputBlur(this)">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="service">
+                                <div class="service-inner" price="8.99" id="service2">
+                                    <div class="plus-minus" id="2" onclick="Minus(this.id)"><i id="2" class='bx bx-minus' style="font-weight:bold"></i></div>
+                                    API Development
+                                    <div class="plus-minus" id="2" onclick="Plus(this.id)"><i id="2" class='bx bx-plus' style="font-weight:bold"></i></div>
+                                </div>
+                                <div class="service-counter">
+                                    <div class="service-counter-content">
+                                        <div class="service-counter-inner">
+                                            <span style="visibility: hidden; margin-right:2px;" id="span2">0</span>
+                                            <span style="margin-top: -1px;">h</span>
+                                        </div>
+                                        <input type="text" class="service-counter-input" maxlength="3" oninput="validateInput(this)" value="0" id="input2" onblur="OnInputBlur(this)">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="service">
+                                <div class="service-inner" price="7.99" id="service3">
+                                    <div class="plus-minus" id="3" onclick="Minus(this.id)"><i id="3" class='bx bx-minus' style="font-weight:bold"></i></div>
+                                    Database Development
+                                    <div class="plus-minus" id="3" onclick="Plus(this.id)"><i id="3" class='bx bx-plus' style="font-weight:bold"></i></div>
+                                </div>
+                                <div class="service-counter">
+                                    <div class="service-counter-content">
+                                        <div class="service-counter-inner">
+                                            <span style="visibility: hidden; margin-right:2px;" id="span3">0</span>
+                                            <span style="margin-top: -1px;">h</span>
+                                        </div>
+                                        <input type="text" class="service-counter-input" maxlength="3" oninput="validateInput(this)" value="0" id="input3" onblur="OnInputBlur(this)">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="service last">
+                                <div class="service-inner" price="9.99" id="service4">
+                                    <div class="plus-minus" id="4" onclick="Minus(this.id)"><i id="4" class='bx bx-minus' style="font-weight:bold"></i></div>
+                                    Mobile App Development
+                                    <div class="plus-minus" id="4" onclick="Plus(this.id)"><i id="4" class='bx bx-plus' style="font-weight:bold"></i></div>
+                                </div>
+                                <div class="service-counter">
+                                    <div class="service-counter-content">
+                                        <div class="service-counter-inner">
+                                            <span style="visibility: hidden; margin-right:2px;" id="span4">0</span>
+                                            <span style="margin-top: -1px;">h</span>
+                                        </div>
+                                        <input type="text" class="service-counter-input" maxlength="3" oninput="validateInput(this)" value="0" id="input4" onblur="OnInputBlur(this)">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="services-content">
+                            <div class="service">
+                                <div class="service-inner" price="8.99" id="service5">
+                                    <div class="plus-minus" id="5" onclick="Minus(this.id)"><i id="5" class='bx bx-minus' style="font-weight:bold"></i></div>
+                                    E-commerce Solutions
+                                    <div class="plus-minus" id="5" onclick="Plus(this.id)"><i id="5" class='bx bx-plus' style="font-weight:bold"></i></div>
+                                </div>
+                                <div class="service-counter">
+                                    <div class="service-counter-content">
+                                        <div class="service-counter-inner">
+                                            <span style="visibility: hidden; margin-right:2px;" id="span5">0</span>
+                                            <span style="margin-top: -1px;">h</span>
+                                        </div>
+                                        <input type="text" class="service-counter-input" maxlength="3" oninput="validateInput(this)" value="0" id="input5" onblur="OnInputBlur(this)">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="service">
+                                <div class="service-inner" price="6.99" id="service6">
+                                    <div class="plus-minus" id="6" onclick="Minus(this.id)"><i id="6" class='bx bx-minus' style="font-weight:bold"></i></div>
+                                    Cloud Integration
+                                    <div class="plus-minus" id="6" onclick="Plus(this.id)"><i id="6" class='bx bx-plus' style="font-weight:bold"></i></div>
+                                </div>
+                                <div class="service-counter">
+                                    <div class="service-counter-content">
+                                        <div class="service-counter-inner">
+                                            <span style="visibility: hidden; margin-right:2px;" id="span6">0</span>
+                                            <span style="margin-top: -1px;">h</span>
+                                        </div>
+                                        <input type="text" class="service-counter-input" maxlength="3" oninput="validateInput(this)" value="0" id="input6" onblur="OnInputBlur(this)">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="service">
+                                <div class="service-inner" price="6.99" id="service7">
+                                    <div class="plus-minus" id="7" onclick="Minus(this.id)"><i id="7" class='bx bx-minus' style="font-weight:bold"></i></div>
+                                    UI/UX Design
+                                    <div class="plus-minus" id="7" onclick="Plus(this.id)"><i id="7" class='bx bx-plus' style="font-weight:bold"></i></div>
+                                </div>
+                                <div class="service-counter">
+                                    <div class="service-counter-content">
+                                        <div class="service-counter-inner">
+                                            <span style="visibility: hidden; margin-right:2px;" id="span7">0</span>
+                                            <span style="margin-top: -1px;">h</span>
+                                        </div>
+                                        <input type="text" class="service-counter-input" maxlength="3" oninput="validateInput(this)" value="0" id="input7" onblur="OnInputBlur(this)">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="service">
+                                <div class="service-inner" price="8.99" id="service8">
+                                    <div class="plus-minus" id="8" onclick="Minus(this.id)"><i id="8" class='bx bx-minus' style="font-weight:bold"></i></div>
+                                    Cross-Platform Dev
+                                    <div class="plus-minus" id="8" onclick="Plus(this.id)"><i id="8" class='bx bx-plus' style="font-weight:bold"></i></div>
+                                </div>
+                                <div class="service-counter">
+                                    <div class="service-counter-content">
+                                        <div class="service-counter-inner">
+                                            <span style="visibility: hidden; margin-right:2px;" id="span8">0</span>
+                                            <span style="margin-top: -1px;">h</span>
+                                        </div>
+                                        <input type="text" class="service-counter-input" maxlength="3" oninput="validateInput(this)" value="0" id="input8" onblur="OnInputBlur(this)">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div></div>
+                        <div class="total-price">
+                            <h1>Total: </h1>
+                            <p>0.00$</p>
+                        </div>
+                    </div>
+                    <div class="submit-btn" onclick="EmailGeneration()">Submit</div>
+                </div>
+            </div>
+        </div>
+        <div class="contact section" id="contact">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-container container">
+                <div class="contact-content">
+                    <div class="inputs">
+                        <div class="input-container required">
+                            <input type="text" id="name" placeholder="Name" onfocus="InputOnFocus(event)" required>
+                            <span class="error-span" id="nameVal"></span>
+                        </div>
+                        <div class="input-container required">
+                            <input type="email" id="email" placeholder="Email" onfocus="InputOnFocus(event)" required>
+                            <span class="error-span" id="emailVal"></span>
+                        </div>
+                    </div>
+                    <div class="input-container">
+                        <input type="text" placeholder="Title" id="title">
+                    </div>
+                    <div class="message-container required">
+                        <textarea id="emailText" cols="30" rows="10" data-counter="0" data-max="500" maxlength="500" placeholder="Message" oninput="updateCharCount()" onfocus="InputOnFocus(event)"></textarea>
+                        <div class="counter" data-counter="0" data-max="100">0/500</div>
+                        <span class="error-span" id="emailTextVal"></span>
+                    </div>
+                    <div class="send-btn" onclick="ValidateAndSendEmail()">Send Message</div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer-bg">
+                <div class="footer-container container">
+                    <div class="main-footer">
+                        <div class="footer-social">
+                            <a href="https://www.facebook.com/profile.php?id=100086915460998" target="_blank"><i class='bx bxl-facebook' style="font-size: 26px;"></i></a>
+                            <a href="https://github.com/SamoilovVlad" target="_blank"><i class='bx bxl-github' style="font-size: 26px;"></i></a>
+                            <a href="https://www.linkedin.com/in/vladyslav-samoilov-1211bb294/" target="_blank"><i class='bx bxl-linkedin' style="font-size: 24px;"></i></a>
+                        </div>
+                        <h3>Vlad Samoilov</h3>
+                        <p>Here is my social media, you can contact with me!</p>
+                        <div class="footer-copy">&#169;. All rights reseved</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="./Scripts/splide-4.1.3/dist/js/splide.min.js"></script>
+    <script src="./Scripts/scripts.js"></script>
+</body>
+</html>
