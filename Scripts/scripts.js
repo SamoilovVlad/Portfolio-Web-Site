@@ -309,6 +309,7 @@ function PopUp(label){
         label = label.querySelector('h1').textContent;
     }
     else if(label.tagName === 'DIV'){
+        label = label.parentNode;
         text = label.querySelector('span').textContent;
         src = label.querySelector('img').src;
         label = label.querySelector('h1').textContent;
